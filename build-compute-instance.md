@@ -2,7 +2,7 @@
 
 Azure Machine Learning の Compute Instance を起動します。
 
-1. Azure Machine Learning Workspace にログイン
+1. Azure Machine Learning Workspace ([ml.azure.com](ml.azure.com)) にログイン
 
 2. コンピューティング (Compute) のコンピューティングインスタンス (Computing Instance) のタブから「新規」をクリック
 
