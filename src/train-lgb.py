@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from azureml.core import Run, Dataset
 
 
-# define functions
+# データ前処理 (データ型変更、特徴量と目的変数の作成、データ分割)
 def preprocess_data(df, categorical_cols, float_cols):
 
     df[categorical_cols] = df[categorical_cols].astype('category')
@@ -34,6 +34,7 @@ def preprocess_data(df, categorical_cols, float_cols):
     return X_train, X_test, y_train, y_test, enc, categorical_cols
 
 
+# モデル学習
 def train_model(params, num_boost_round, X_train, X_test, y_train, y_test, categorical_cols):
     t1 = time.time()
     train_data = lgb.Dataset(X_train, label=y_train, categorical_feature=categorical_cols)
@@ -50,6 +51,7 @@ def train_model(params, num_boost_round, X_train, X_test, y_train, y_test, categ
     return model, t2 - t1
 
 
+# モデル評価
 def evaluate_model(model, X_test, y_test):
     y_proba = model.predict(X_test)
     y_pred = y_proba.argmax(axis=1)
@@ -62,14 +64,13 @@ def evaluate_model(model, X_test, y_test):
 print("*" * 60)
 print("\n\n")
 
+
+# Azure Machine Learning の実行オブジェクトの取得
 run = Run.get_context()
 ws = run.experiment.workspace
 
 
-
-
-
-# arg parser
+# 引数情報
 parser = argparse.ArgumentParser()
 parser.add_argument("--input-data", type=str)
 parser.add_argument("--num-boost-round", type=int, default=10)
@@ -86,11 +87,11 @@ args = parser.parse_args()
 seed = 1234
 mlflow.log_metric("seed", seed)
 
-# enable auto logging
+# 自動 Logging 機能の開始
 mlflow.lightgbm.autolog()
 
 
-# setup parameters
+# LightGBM ハイパーパラメータ
 num_boost_round = args.num_boost_round
 
 params = {
@@ -106,22 +107,22 @@ params = {
     "verbose": args.verbose,
 }
 
-# read in data
+# 表形式データセット (Dataset) の読み込み
 dataset = run.input_datasets['titanic']
 df = dataset.to_pandas_dataframe()
 
-# preprocess data
+# データ前処理
 categorical_cols = ['Name', 'Sex', 'Ticket', 'Cabin', 'Embarked']
 float_cols = ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
 X_train, X_test, y_train, y_test, enc, categorical_cols = preprocess_data(df, categorical_cols, float_cols)
 
-# train model
+# モデル学習
 model, train_time = train_model(
     params, num_boost_round, X_train, X_test, y_train, y_test, categorical_cols
 )
 mlflow.log_metric("training_time", train_time)
 
-# evaluate model
+# モデル評価
 loss, acc = evaluate_model(model, X_test, y_test)
 mlflow.log_metrics({"loss": loss, "accuracy": acc})
 
