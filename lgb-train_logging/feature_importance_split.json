@@ -1,0 +1,12 @@
+{
+  "Pclass": 60,
+  "Name": 0,
+  "Sex": 32,
+  "Age": 328,
+  "SibSp": 24,
+  "Parch": 8,
+  "Ticket": 0,
+  "Fare": 340,
+  "Cabin": 0,
+  "Embarked": 52
+}

@@ -1,0 +1,5 @@
+2022-01-18 13:45:41.4379|DEBUG|Telemetry|l_fa5e1f9c-79b0-4c10-8bf7-d6292e59b445|event: ActivityMigration|metrics: {}, properties: {"prevState":"No version","newState":"1","success":"True"}|
+2022-01-18 13:45:42.3947|DEBUG|Telemetry|l_fa5e1f9c-79b0-4c10-8bf7-d6292e59b445|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetDatastoreFilesBlock","id":"0"}|
+2022-01-18 13:45:42.3947|DEBUG|Telemetry|l_fa5e1f9c-79b0-4c10-8bf7-d6292e59b445|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2022-01-18 13:45:42.3947|DEBUG|Telemetry|l_fa5e1f9c-79b0-4c10-8bf7-d6292e59b445|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2022-01-18 13:45:42.3947|DEBUG|Telemetry|l_fa5e1f9c-79b0-4c10-8bf7-d6292e59b445|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|

@@ -1,0 +1,52 @@
+[stderr]/azureml-envs/azureml_08f74657c3f2d3647b16ec4c255a28d8/lib/python3.6/site-packages/lightgbm/engine.py:177: UserWarning: Found `num_iterations` in params. Will use it instead of argument
+[stderr]  _log_warning(f"Found `{alias}` in params. Will use it instead of argument")
+[stderr]/azureml-envs/azureml_08f74657c3f2d3647b16ec4c255a28d8/lib/python3.6/site-packages/lightgbm/basic.py:2065: UserWarning: Using categorical_feature in Dataset.
+[stderr]  _log_warning('Using categorical_feature in Dataset.')
+[stderr]/azureml-envs/azureml_08f74657c3f2d3647b16ec4c255a28d8/lib/python3.6/site-packages/lightgbm/basic.py:1780: UserWarning: Overriding the parameters from Reference Dataset.
+[stderr]  _log_warning('Overriding the parameters from Reference Dataset.')
+[stderr]/azureml-envs/azureml_08f74657c3f2d3647b16ec4c255a28d8/lib/python3.6/site-packages/lightgbm/basic.py:1513: UserWarning: categorical_column in param dict is overridden.
+[stderr]  _log_warning(f'{cat_alias} in param dict is overridden.')
+[stderr]2022/01/19 14:39:08 WARNING mlflow.lightgbm: Failed to infer model signature: Unable to map 'np.object' type to MLflow DataType. np.object canbe mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).
+************************************************************
+
+
+
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.064855 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+
+
+
+************************************************************

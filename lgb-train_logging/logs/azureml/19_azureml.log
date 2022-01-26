@@ -1,0 +1,165 @@
+2022-01-19 14:38:57,425|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2022-01-19 14:38:57,426|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2022-01-19 14:38:57,430|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2022-01-19 14:38:57,440|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2022-01-19 14:38:57,440|azureml.core.authentication|DEBUG|Time to expire 1814273.559704 seconds
+2022-01-19 14:38:57,440|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2022-01-19 14:38:57,440|azureml._restclient.clientbase|DEBUG|ClientBase: Calling get with url None
+2022-01-19 14:38:57,476|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,476|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,477|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,477|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,477|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,477|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,477|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:57,580|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: none
+2022-01-19 14:38:57,580|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2022-01-19 14:38:57,580|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2022-01-19 14:38:57,608|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2022-01-19 14:38:57,608|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2022-01-19 14:38:57,682|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2022-01-19 14:38:57,683|azureml._SubmittedRun#lgb-train_1642603007_f69264b4|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': 'a1384dae-5f9a-478f-a907-41f647b488d6', 'azureml.git.repository_uri': 'https://github.com/konabuta/azure-machine-learning-basic.git', 'mlflow.source.git.repoURL': 'https://github.com/konabuta/azure-machine-learning-basic.git', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': '18d0684794bbd2f04ac2b1a92cefdf602e9a75d8', 'mlflow.source.git.commit': '18d0684794bbd2f04ac2b1a92cefdf602e9a75d8', 'azureml.git.dirty': 'False', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2022-01-19 14:38:57,683|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2022-01-19 14:38:57,684|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|[START]
+2022-01-19 14:38:59,520|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2022-01-19 14:38:59,520|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2022-01-19 14:38:59,520|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2022-01-19 14:38:59,520|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,521|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,534|azureml.mlflow._internal.utils|INFO|Parsing tracking uri /mlflow/v1.0/subscriptions/9c0f91b8-eb2f-484c-979c-15848c098a6b/resourceGroups/azureml/providers/Microsoft.MachineLearningServices/workspaces/azureml
+2022-01-19 14:38:59,535|azureml.mlflow._internal.utils|INFO|Tracking uri /mlflow/v1.0/subscriptions/9c0f91b8-eb2f-484c-979c-15848c098a6b/resourceGroups/azureml/providers/Microsoft.MachineLearningServices/workspaces/azureml has sub id 9c0f91b8-eb2f-484c-979c-15848c098a6b, resource group azureml, and workspace azureml
+2022-01-19 14:38:59,535|azureml.core.authentication|DEBUG|Time to expire 1814271.464406 seconds
+2022-01-19 14:38:59,535|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2022-01-19 14:38:59,535|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://japaneast.api.azureml.ms.
+2022-01-19 14:38:59,536|azureml.mlflow._internal.service_context_loader|DEBUG|Created a new service context from mlflow env vars: <azureml._restclient.service_context.ServiceContext object at 0x7f54f7caeeb8>
+2022-01-19 14:38:59,537|azureml.mlflow._internal.store|DEBUG|Initializing the AzureMLRestStore
+2022-01-19 14:38:59,545|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:38:59,797|azureml.mlflow._internal.store|DEBUG|Status update was skipped for remote run lgb-train_1642603007_f69264b4
+2022-01-19 14:38:59,798|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:38:59,894|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:00,027|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:04,312|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:05,287|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:06,885|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:07,332|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:07,448|azureml.mlflow._internal.utils|DEBUG|Initializing the AzureMLflowArtifactRepository
+2022-01-19 14:39:07,448|azureml.mlflow._internal.utils|DEBUG|Using the service context from the AzureMLRestStore store
+2022-01-19 14:39:07,448|azureml.mlflow._internal.utils|INFO|Parsing artifact uri azureml://experiments/lgb-train/runs/lgb-train_1642603007_f69264b4/artifacts
+2022-01-19 14:39:07,449|azureml.mlflow._internal.utils|INFO|Artifact uri azureml://experiments/lgb-train/runs/lgb-train_1642603007_f69264b4/artifacts info: {'experiment': 'lgb-train', 'runid': 'lgb-train_1642603007_f69264b4'}
+2022-01-19 14:39:07,449|azureml.mlflow._internal.utils|DEBUG|AzureMLflowArtifactRepository for experiment lgb-train
+2022-01-19 14:39:07,449|azureml.mlflow._internal.utils|DEBUG|AzureMLflowArtifactRepository for run id lgb-train_1642603007_f69264b4
+2022-01-19 14:39:07,449|azureml.mlflow._internal.utils|DEBUG|AzureMLflowArtifactRepository for path None
+2022-01-19 14:39:07,449|azureml.RunArtifactRepositoryClient|DEBUG|Called upload_artifact
+2022-01-19 14:39:07,449|azureml.RunArtifactRepositoryClient|DEBUG|Uploading path artifact
+2022-01-19 14:39:07,450|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2022-01-19 14:39:07,450|azureml.RunArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/batch/metadata
+2022-01-19 14:39:07,677|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2022-01-19 14:39:07,679|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:07,753|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/feature_importance_split.png with size 20077, file size 20077.
+2022-01-19 14:39:07,754|azureml.RunArtifactRepositoryClient|DEBUG|Called upload_artifact
+2022-01-19 14:39:07,754|azureml.RunArtifactRepositoryClient|DEBUG|Uploading path artifact
+2022-01-19 14:39:07,755|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2022-01-19 14:39:07,755|azureml.RunArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/batch/metadata
+2022-01-19 14:39:07,890|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2022-01-19 14:39:07,890|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:07,928|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/feature_importance_split.json with size 149, file size 149.
+2022-01-19 14:39:08,070|azureml.RunArtifactRepositoryClient|DEBUG|Called upload_artifact
+2022-01-19 14:39:08,070|azureml.RunArtifactRepositoryClient|DEBUG|Uploading path artifact
+2022-01-19 14:39:08,070|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2022-01-19 14:39:08,070|azureml.RunArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/batch/metadata
+2022-01-19 14:39:08,264|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2022-01-19 14:39:08,264|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:08,306|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/feature_importance_gain.png with size 19998, file size 19998.
+2022-01-19 14:39:08,307|azureml.RunArtifactRepositoryClient|DEBUG|Called upload_artifact
+2022-01-19 14:39:08,307|azureml.RunArtifactRepositoryClient|DEBUG|Uploading path artifact
+2022-01-19 14:39:08,308|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2022-01-19 14:39:08,308|azureml.RunArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/batch/metadata
+2022-01-19 14:39:08,454|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2022-01-19 14:39:08,455|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:08,517|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/feature_importance_gain.json with size 260, file size 260.
+2022-01-19 14:39:11,502|azureml.RunArtifactRepositoryClient|DEBUG|Uploading ['model/model.lgb', 'model/requirements.txt', 'model/MLmodel', 'model/conda.yaml']
+2022-01-19 14:39:11,502|azureml.upload_files|DEBUG|[Start]
+2022-01-19 14:39:11,502|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2022-01-19 14:39:11,502|azureml.RunArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/artifacts/batch/metadata
+2022-01-19 14:39:11,705|azureml.RunArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2022-01-19 14:39:11,705|azureml._restclient.clientbase.WorkerPool|DEBUG|submitting future: perform_upload
+2022-01-19 14:39:11,705|azureml.upload_files.0_perform_upload|DEBUG|Using basic handler - no exception handling
+2022-01-19 14:39:11,705|azureml.upload_files|DEBUG|Adding task 0_perform_upload to queue of approximate size: 0
+2022-01-19 14:39:11,706|azureml._restclient.clientbase.WorkerPool|DEBUG|submitting future: perform_upload
+2022-01-19 14:39:11,706|azureml.upload_files.1_perform_upload|DEBUG|Using basic handler - no exception handling
+2022-01-19 14:39:11,706|azureml.upload_files|DEBUG|Adding task 1_perform_upload to queue of approximate size: 1
+2022-01-19 14:39:11,707|azureml._restclient.clientbase.WorkerPool|DEBUG|submitting future: perform_upload
+2022-01-19 14:39:11,707|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:11,707|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:11,708|azureml.upload_files.2_perform_upload|DEBUG|Using basic handler - no exception handling
+2022-01-19 14:39:11,708|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:11,709|azureml.upload_files|DEBUG|Adding task 2_perform_upload to queue of approximate size: 2
+2022-01-19 14:39:11,714|azureml._restclient.clientbase.WorkerPool|DEBUG|submitting future: perform_upload
+2022-01-19 14:39:11,721|azureml.upload_files.3_perform_upload|DEBUG|Using basic handler - no exception handling
+2022-01-19 14:39:11,721|azureml.upload_files|DEBUG|Adding task 3_perform_upload to queue of approximate size: 3
+2022-01-19 14:39:11,721|azureml.upload_files|DEBUG|[Stop] - waiting default timeout
+2022-01-19 14:39:11,721|azureml.upload_files.WaitFlushSource:upload_files|DEBUG|[START]
+2022-01-19 14:39:11,721|azureml.upload_files.WaitFlushSource:upload_files|DEBUG|Overriding default flush timeout from None to 120
+2022-01-19 14:39:11,721|azureml.upload_files.WaitFlushSource:upload_files|DEBUG|Waiting 120 seconds on tasks: [AsyncTask(0_perform_upload), AsyncTask(1_perform_upload), AsyncTask(2_perform_upload), AsyncTask(3_perform_upload)].
+2022-01-19 14:39:11,721|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2022-01-19 14:39:11,760|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/model/conda.yaml with size 183, file size 183.
+2022-01-19 14:39:11,785|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/model/model.lgb with size 134283, file size 134283.
+2022-01-19 14:39:11,787|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/model/requirements.txt with size 79, file size 79.
+2022-01-19 14:39:11,805|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.lgb-train_1642603007_f69264b4/model/MLmodel with size 290, file size 290.
+2022-01-19 14:39:11,972|azureml.upload_files.0_perform_upload.WaitingTask|DEBUG|[START]
+2022-01-19 14:39:11,972|azureml.upload_files.0_perform_upload.WaitingTask|DEBUG|Awaiter is upload_files
+2022-01-19 14:39:11,972|azureml.upload_files.0_perform_upload.WaitingTask|DEBUG|[STOP]
+2022-01-19 14:39:11,972|azureml.upload_files.1_perform_upload.WaitingTask|DEBUG|[START]
+2022-01-19 14:39:11,972|azureml.upload_files.1_perform_upload.WaitingTask|DEBUG|Awaiter is upload_files
+2022-01-19 14:39:11,972|azureml.upload_files.1_perform_upload.WaitingTask|DEBUG|[STOP]
+2022-01-19 14:39:11,972|azureml.upload_files.2_perform_upload.WaitingTask|DEBUG|[START]
+2022-01-19 14:39:11,972|azureml.upload_files.2_perform_upload.WaitingTask|DEBUG|Awaiter is upload_files
+2022-01-19 14:39:11,972|azureml.upload_files.2_perform_upload.WaitingTask|DEBUG|[STOP]
+2022-01-19 14:39:11,972|azureml.upload_files.3_perform_upload.WaitingTask|DEBUG|[START]
+2022-01-19 14:39:11,972|azureml.upload_files.3_perform_upload.WaitingTask|DEBUG|Awaiter is upload_files
+2022-01-19 14:39:11,973|azureml.upload_files.3_perform_upload.WaitingTask|DEBUG|[STOP]
+2022-01-19 14:39:11,973|azureml.upload_files|DEBUG|Waiting on task: 0_perform_upload.
+Waiting on task: 1_perform_upload.
+Waiting on task: 2_perform_upload.
+Waiting on task: 3_perform_upload.
+4 tasks left. Current duration of flush 9.72747802734375e-05 seconds.
+
+2022-01-19 14:39:11,973|azureml.upload_files.WaitFlushSource:upload_files|DEBUG|[STOP]
+2022-01-19 14:39:11,974|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:12,287|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:12,626|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
+2022-01-19 14:39:12,998|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2022-01-19 14:39:12,998|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2022-01-19 14:39:12,999|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2022-01-19 14:39:13,000|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2022-01-19 14:39:13,096|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2022-01-19 14:39:13,097|azureml._SubmittedRun#lgb-train_1642603007_f69264b4.RunHistoryFacade.MetricsClient|DEBUG|[STOP]
+2022-01-19 14:39:16,169|azureml.mlflow._internal.store|DEBUG|Status update was skipped for remote run lgb-train_1642603007_f69264b4
+2022-01-19 14:39:16,170|azureml._restclient.clientbase|DEBUG|ClientBase: Calling _call_endpoint with url None
